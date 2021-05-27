@@ -27,9 +27,9 @@ const App = () => {
       <UserContext.Provider value={{user, setUser}} >
       <NavbarTop />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/signup" component={Signup} />
+          <Route exact path="/github-finder" component={Home} />
+          <Route exact path="/github-finder/login" component={Login} />
+          <Route exact path="/github-finder/signup" component={Signup} />
           <Route exact path="*" component={NotFound} />
         </Switch>
         <Footer/>
